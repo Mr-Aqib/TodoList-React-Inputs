@@ -38,9 +38,9 @@ const Todo = () => {
   return (
       <>
           <div className="container">
-              <div className="col-lg-5 mx-auto shadow p-4 rounded-4">
+              <div className="col-lg-5 inputtodo my-4 mx-auto shadow p-4 rounded-4">
                   <form action="">
-                      <label className='text-center' htmlFor="">Enter Your Todo</label>
+                      <label className='d-block text-center fs-3 text-white my-1' htmlFor=""  >Enter Your Todo</label>
                       <input onChange={(e)=> setTodo(e.target.value)} className='form-control' type="text" value={todo} />
                       <button onClick={handletodo} className="btn my-2 w-50 d-block mx-auto btn-success">
                           Add Todo
